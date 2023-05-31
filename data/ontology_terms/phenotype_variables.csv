@@ -1,0 +1,24 @@
+column_name,original_column_label,column_label,phenopackets_building_block,part_of_phenopackets_building_block,Term URI,Term CURIE,Term label,Unit term URI,Unit term CURIE,Unit term label
+ID Patient,PRIMARY KEY,id,id,Individual,,,,,,
+param17377,Leucocytes,Leukocytes,Measurement,Biosample,https://loinc.org/26464-8/,LOINC:26464-8,Leukocytes [#/volume] in Blood,http://purl.obolibrary.org/obo/NCIT_C67249,NCIT:C67249,Billion Cells per Liter
+param17374,Erythrocytes,Erythrocytes,Measurement,Biosample,https://loinc.org/26453-1/,LOINC:26453-1,Erythrocytes [#/volume] in Blood,http://purl.obolibrary.org/obo/NCIT_C67243,NCIT:C67243,Trillion Cells per Liter
+param17371,Hemoglobin,Hemoglobin,Measurement,Biosample,https://loinc.org/718-7/,LOINC:718-7,Hemoglobin [Mass/volume] in Blood,http://purl.obolibrary.org/obo/UO_0000175,UO:0000175,gram per liter
+param17401,Hematokrit,Hematocrit,Measurement,Biosample,https://loinc.org/20570-8/,LOINC:20570-8,Hematocrit [Volume Fraction] of Blood,http://purl.obolibrary.org/obo/UO_0000205,UO:0000205,volume per unit volume
+param17395,Platelets,Platelets,Measurement,Biosample,https://loinc.org/26515-7/,LOINC:26515-7,Platelets [#/volume] in Blood,http://purl.obolibrary.org/obo/NCIT_C67249,NCIT:C67249,Billion Cells per Liter
+param17383,MCV,MCV,Measurement,Biosample,https://loinc.org/787-2,LOINC:787-2,MCV [Entitic volume] by Automated count,http://purl.obolibrary.org/obo/UO_0000104,UO:0000104,femtoliter
+param17386,MCH,MCH,Measurement,Biosample,https://loinc.org/785-6,LOINC:785-6,MCH [Entitic mass] by Automated count,http://purl.obolibrary.org/obo/UO_0000025,UO:0000025,picogram
+param17389,MCHC,MCHC,Measurement,Biosample,https://loinc.org/786-4,LOINC:786-4,MCHC [Mass/volume] by Automated count,http://purl.obolibrary.org/obo/UO_0000175,UO:0000175,gram per liter
+param17392,Lymphocytes,Lymphocytes,Measurement,Biosample,https://loinc.org/731-0,LOINC:731-0,Lymphocytes [#/volume] in Blood by Automated count,http://purl.obolibrary.org/obo/UO_0000191,UO:0000191,fraction
+param17398,MXD,MXD,Measurement,Biosample,https://loinc.org/32154-7,LOINC:32154-7,Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count,http://purl.obolibrary.org/obo/UO_0000191,UO:0000191,fraction
+param17380,Neutrophils,Neutrophils,Measurement,Biosample,https://loinc.org/751-8,LOINC:751-8,Neutrophils [#/volume] in Blood by Automated count,http://purl.obolibrary.org/obo/UO_0000191,UO:0000191,fraction
+param18133,Smoking status,Smoking Status,Measurement,Individual,http://purl.obolibrary.org/obo/NCIT_C19796,NCIT:C19796,Smoking Status,,,
+param6620,Sampling date,Sampling Date,Timestamp,Individual,,,,,,
+param7996,Height [cm],Height,Measurement,Individual,http://www.ebi.ac.uk/efo/EFO_0004339,EFO:0004339,body height,http://purl.obolibrary.org/obo/UO_0000015,UO:0000015,centimeter
+param7997,Weight [kg],Weight,Measurement,Individual,http://www.ebi.ac.uk/efo/EFO_0004338,EFO:0004338,body weight,http://purl.obolibrary.org/obo/UO_0000009,UO:0000009,kilogram
+param18263,BMI,BMI,Measurement,Individual,http://www.ebi.ac.uk/efo/EFO_0004340,EFO:0004340,body mass index,http://purl.obolibrary.org/obo/UO_0000086,UO:0000086,kilogram per square meter
+param16318,Date of birth,Date of Birth,Timestamp,Individual,http://www.ebi.ac.uk/efo/EFO_0004950,EFO:0004950,date of birth,,,
+param16320,Sex,Sex,Sex,Individual,,,,,,
+param23794,Age at Sampling Date,Age,Age,Individual,,,,,,
+param23797,Comment,PhenotypicFeature,PhenotypicFeature,Individual,,,,,,
+param23795,Blood group,ABO Blood Group,Measurement,Individual,http://purl.obolibrary.org/obo/NCIT_C76245,NCIT:C76245,ABO Blood Group,,,
+param23796,Rh factor,Rh Blood Group,Measurement,Individual,http://purl.obolibrary.org/obo/NCIT_C76250,NCIT:C76250,Rh Blood Group,,,

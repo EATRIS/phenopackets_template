@@ -1,0 +1,5 @@
+﻿value_reported,Term URI,Term CURIE,Term label
+A,http://purl.obolibrary.org/obo/NCIT_C76246,NCIT:C76246,Blood Group A
+AB,http://purl.obolibrary.org/obo/NCIT_C76248,NCIT:C76248,Blood Group AB
+B,http://purl.obolibrary.org/obo/NCIT_C76247,NCIT:C76247,Blood Group B
+0,http://purl.obolibrary.org/obo/NCIT_C76249,NCIT:C76249,Blood Group O

@@ -1,0 +1,5 @@
+value_reported,Term URI,Term CURIE,Term label
+Ex-smoker,http://purl.obolibrary.org/obo/NCIT_C67148,NCIT:C67148,Former Smoker
+Non-smoker,http://purl.obolibrary.org/obo/NCIT_C65108,NCIT:C65108,Never Smoker
+Smoker,http://purl.obolibrary.org/obo/NCIT_C67147,NCIT:C67147,Current Smoker
+NA,http://purl.obolibrary.org/obo/NCIT_C67151,NCIT:C67151,Unknown If Ever Smoked
