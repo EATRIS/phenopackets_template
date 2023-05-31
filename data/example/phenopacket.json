@@ -1,0 +1,6041 @@
+{
+  "id": "Synthetic data set",
+  "description": "Synthetic data set based on fields present in the EATRIS-Plus healthy multi-omics demonstrator cohort",
+  "members": [
+    {
+      "id": "SynthSample0001",
+      "subject": {
+        "id": "SynthSample0001",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P42Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 165.1
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 60.5
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 31.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76249",
+              "label": "Blood Group O"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0001",
+          "individualId": "SynthSample0001",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 5.5
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 5.58
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 141.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.45
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 233.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 95.9
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.2
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 339.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.39
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.098
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.468
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P42Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0002",
+      "subject": {
+        "id": "SynthSample0002",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P38Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 158.2
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 78.9
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 27.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0002",
+          "individualId": "SynthSample0002",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 8.1
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.92
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 148.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.38
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 275.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 87.1
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.3
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 355.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.419
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.097
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.671
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P38Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0003",
+      "subject": {
+        "id": "SynthSample0003",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P32Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 166.0
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 75.8
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 28.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0003",
+          "individualId": "SynthSample0003",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 4.3
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.85
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 132.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.46
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 155.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 93.0
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 31.5
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 349.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.346
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.069
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.531
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P32Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0004",
+      "subject": {
+        "id": "SynthSample0004",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P45Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67148",
+              "label": "Former Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 181.1
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 79.2
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 23.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0004",
+          "individualId": "SynthSample0004",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 4.3
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.6
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 132.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.43
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 242.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 94.1
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.1
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 360.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.262
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.136
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.598
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P45Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0005",
+      "subject": {
+        "id": "SynthSample0005",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P39Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 175.6
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 82.5
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 34.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0005",
+          "individualId": "SynthSample0005",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 9.5
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.67
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 140.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.4
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 234.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 90.9
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 29.1
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 340.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.387
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.066
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.601
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P39Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0006",
+      "subject": {
+        "id": "SynthSample0006",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P40Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67148",
+              "label": "Former Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 177.6
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 78.2
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 30.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76252",
+              "label": "Rh Negative Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0006",
+          "individualId": "SynthSample0006",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 6.2
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.91
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 151.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.43
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 256.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 87.7
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 29.7
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 339.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.401
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.1
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.431
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P40Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0007",
+      "subject": {
+        "id": "SynthSample0007",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P40Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67147",
+              "label": "Current Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 169.3
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 83.7
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 33.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0007",
+          "individualId": "SynthSample0007",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 4.1
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.96
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 148.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.44
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 157.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 90.2
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 31.2
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 356.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.322
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.087
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.455
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P40Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0008",
+      "subject": {
+        "id": "SynthSample0008",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P34Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67147",
+              "label": "Current Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 178.2
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 85.0
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 33.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76252",
+              "label": "Rh Negative Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0008",
+          "individualId": "SynthSample0008",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 6.8
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 5.33
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 161.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.48
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 319.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 89.5
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.2
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 351.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.278
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.05
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.766
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P34Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0009",
+      "subject": {
+        "id": "SynthSample0009",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P55Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67148",
+              "label": "Former Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 173.6
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 92.8
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 25.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0009",
+          "individualId": "SynthSample0009",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 7.6
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.98
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 150.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.46
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 296.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 93.0
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 31.3
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 338.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.364
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.081
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.54
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P55Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0010",
+      "subject": {
+        "id": "SynthSample0010",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P36Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 169.1
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 105.2
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 23.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76248",
+              "label": "Blood Group AB"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0010",
+          "individualId": "SynthSample0010",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 5.2
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 5.43
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 146.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.4
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 222.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 94.7
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.8
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 339.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.351
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.118
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.575
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P36Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0011",
+      "subject": {
+        "id": "SynthSample0011",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P36Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67148",
+              "label": "Former Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 170.7
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 73.5
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 24.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76249",
+              "label": "Blood Group O"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0011",
+          "individualId": "SynthSample0011",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 7.2
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 5.26
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 150.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.45
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 306.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 88.4
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.9
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 337.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.268
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.097
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.456
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P36Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0012",
+      "subject": {
+        "id": "SynthSample0012",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P45Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 174.5
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 85.7
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 24.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0012",
+          "individualId": "SynthSample0012",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 9.4
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.96
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 143.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.43
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 149.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 91.0
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.2
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 341.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.327
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.085
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.559
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P45Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0013",
+      "subject": {
+        "id": "SynthSample0013",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P39Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67148",
+              "label": "Former Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 168.9
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 82.5
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 23.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0013",
+          "individualId": "SynthSample0013",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 6.4
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.62
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 125.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.41
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 283.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 92.6
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 31.4
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 346.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.406
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.123
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.515
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P39Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0014",
+      "subject": {
+        "id": "SynthSample0014",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P40Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67147",
+              "label": "Current Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 192.3
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 79.3
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 23.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76252",
+              "label": "Rh Negative Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0014",
+          "individualId": "SynthSample0014",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 10.5
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 5.37
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 134.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.45
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 240.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 88.6
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 30.7
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 337.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.167
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.058
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.69
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P40Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0015",
+      "subject": {
+        "id": "SynthSample0015",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P34Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 182.4
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 70.3
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 24.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76249",
+              "label": "Blood Group O"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0015",
+          "individualId": "SynthSample0015",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 5.3
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.52
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 158.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.47
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 227.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 81.1
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 29.8
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 351.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.362
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.063
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.595
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P34Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0016",
+      "subject": {
+        "id": "SynthSample0016",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P40Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67148",
+              "label": "Former Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 170.0
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 63.2
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 25.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0016",
+          "individualId": "SynthSample0016",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 6.7
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 5.54
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 154.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.43
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 265.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 89.0
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 30.0
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 343.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.302
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.087
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.654
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P40Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0017",
+      "subject": {
+        "id": "SynthSample0017",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P16Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 172.6
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 96.9
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 31.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0017",
+          "individualId": "SynthSample0017",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 6.0
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.87
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 158.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.43
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 196.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 85.2
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 30.8
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 343.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.328
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.086
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.562
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P16Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0018",
+      "subject": {
+        "id": "SynthSample0018",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P37Y"
+          }
+        },
+        "sex": "MALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 183.9
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 108.2
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 23.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0018",
+          "individualId": "SynthSample0018",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 5.7
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.82
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 131.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.42
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 346.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 90.2
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 31.9
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 343.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.225
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.104
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.497
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P37Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0019",
+      "subject": {
+        "id": "SynthSample0019",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P56Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C65108",
+              "label": "Never Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 176.9
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 70.4
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 25.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76247",
+              "label": "Blood Group B"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0019",
+          "individualId": "SynthSample0019",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 5.5
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.28
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 151.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.45
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 181.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 93.6
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 30.8
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 337.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.244
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.14
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.389
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P56Y"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "SynthSample0020",
+      "subject": {
+        "id": "SynthSample0020",
+        "timeAtLastEncounter": {
+          "age": {
+            "iso8601duration": "P37Y"
+          }
+        },
+        "sex": "FEMALE",
+        "taxonomy": {
+          "id": "NCBITaxon:9606",
+          "label": "Homo sapiens"
+        }
+      },
+      "measurements": [
+        {
+          "description": "Smoking Status",
+          "assay": {
+            "id": "NCIT:C19796",
+            "label": "Smoking Status"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C67147",
+              "label": "Current Smoker"
+            }
+          }
+        },
+        {
+          "description": "Height",
+          "assay": {
+            "id": "EFO:0004339",
+            "label": "body height"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000015",
+                "label": "centimeter"
+              },
+              "value": 172.2
+            }
+          }
+        },
+        {
+          "description": "Weight",
+          "assay": {
+            "id": "EFO:0004338",
+            "label": "body weight"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000009",
+                "label": "kilogram"
+              },
+              "value": 97.9
+            }
+          }
+        },
+        {
+          "description": "BMI",
+          "assay": {
+            "id": "EFO:0004340",
+            "label": "body mass index"
+          },
+          "value": {
+            "quantity": {
+              "unit": {
+                "id": "UO:0000086",
+                "label": "kilogram per square meter"
+              },
+              "value": 27.0
+            }
+          }
+        },
+        {
+          "description": "ABO Blood Group",
+          "assay": {
+            "id": "NCIT:C76245",
+            "label": "ABO Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76246",
+              "label": "Blood Group A"
+            }
+          }
+        },
+        {
+          "description": "Rh Blood Group",
+          "assay": {
+            "id": "NCIT:C76250",
+            "label": "Rh Blood Group"
+          },
+          "value": {
+            "ontologyClass": {
+              "id": "NCIT:C76251",
+              "label": "Rh Positive Blood Group"
+            }
+          }
+        }
+      ],
+      "biosamples": [
+        {
+          "id": "SynthSample0020",
+          "individualId": "SynthSample0020",
+          "description": "Blood sample",
+          "sampledTissue": {
+            "id": "NCIT:C17610",
+            "label": "Blood Sample"
+          },
+          "measurements": [
+            {
+              "description": "Leukocytes",
+              "assay": {
+                "id": "LOINC:26464-8",
+                "label": "Leukocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 4.5
+                }
+              }
+            },
+            {
+              "description": "Erythrocytes",
+              "assay": {
+                "id": "LOINC:26453-1",
+                "label": "Erythrocytes [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67243",
+                    "label": "Trillion Cells per Liter"
+                  },
+                  "value": 4.71
+                }
+              }
+            },
+            {
+              "description": "Hemoglobin",
+              "assay": {
+                "id": "LOINC:718-7",
+                "label": "Hemoglobin [Mass/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 149.0
+                }
+              }
+            },
+            {
+              "description": "Hematocrit",
+              "assay": {
+                "id": "LOINC:20570-8",
+                "label": "Hematocrit [Volume Fraction] of Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000205",
+                    "label": "volume per unit volume"
+                  },
+                  "value": 0.45
+                }
+              }
+            },
+            {
+              "description": "Platelets",
+              "assay": {
+                "id": "LOINC:26515-7",
+                "label": "Platelets [#/volume] in Blood"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "NCIT:C67249",
+                    "label": "Billion Cells per Liter"
+                  },
+                  "value": 238.0
+                }
+              }
+            },
+            {
+              "description": "MCV",
+              "assay": {
+                "id": "LOINC:787-2",
+                "label": "MCV [Entitic volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000104",
+                    "label": "femtoliter"
+                  },
+                  "value": 89.7
+                }
+              }
+            },
+            {
+              "description": "MCH",
+              "assay": {
+                "id": "LOINC:785-6",
+                "label": "MCH [Entitic mass] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000025",
+                    "label": "picogram"
+                  },
+                  "value": 32.0
+                }
+              }
+            },
+            {
+              "description": "MCHC",
+              "assay": {
+                "id": "LOINC:786-4",
+                "label": "MCHC [Mass/volume] by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000175",
+                    "label": "gram per liter"
+                  },
+                  "value": 337.0
+                }
+              }
+            },
+            {
+              "description": "Lymphocytes",
+              "assay": {
+                "id": "LOINC:731-0",
+                "label": "Lymphocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.184
+                }
+              }
+            },
+            {
+              "description": "MXD",
+              "assay": {
+                "id": "LOINC:32154-7",
+                "label": "Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.086
+                }
+              }
+            },
+            {
+              "description": "Neutrophils",
+              "assay": {
+                "id": "LOINC:751-8",
+                "label": "Neutrophils [#/volume] in Blood by Automated count"
+              },
+              "value": {
+                "quantity": {
+                  "unit": {
+                    "id": "UO:0000191",
+                    "label": "fraction"
+                  },
+                  "value": 0.585
+                }
+              }
+            }
+          ],
+          "timeOfCollection": {
+            "age": {
+              "iso8601duration": "P37Y"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "metaData": {
+    "created": "2023-05-31T00:00:00Z",
+    "createdBy": "Anna Niehues",
+    "resources": [
+      {
+        "id": "ncbitaxon",
+        "name": "NCBI organismal classification",
+        "url": "https://github.com/obophenotype/ncbitaxon",
+        "version": "2022-08-18",
+        "namespacePrefix": "NCBITaxon",
+        "iriPrefix": "http://purl.obolibrary.org/obo/NCBITaxon_"
+      },
+      {
+        "id": "ncit",
+        "name": "NCI Thesaurus OBO Edition",
+        "url": "https://github.com/NCI-Thesaurus/thesaurus-obo-edition",
+        "version": "2022-08-19",
+        "namespacePrefix": "NCIT",
+        "iriPrefix": "http://purl.obolibrary.org/obo/NCIT_"
+      },
+      {
+        "id": "efo",
+        "name": "Experimental Factor Ontology",
+        "url": "https://www.ebi.ac.uk/efo/",
+        "version": "v3.47.0",
+        "namespacePrefix": "EFO",
+        "iriPrefix": "http://www.ebi.ac.uk/efo/EFO_"
+      },
+      {
+        "id": "uo",
+        "name": "Units of measurement ontology",
+        "url": "https://github.com/bio-ontology-research-group/unit-ontology",
+        "version": "2020-03-10",
+        "namespacePrefix": "UO",
+        "iriPrefix": "http://purl.obolibrary.org/obo/UO_"
+      },
+      {
+        "id": "loinc",
+        "name": "Logical Observation Identifier Names and Codes",
+        "url": "https://loinc.org/",
+        "version": "2.73",
+        "namespacePrefix": "LOINC",
+        "iriPrefix": "https://loinc.org/"
+      },
+      {
+        "id": "doid",
+        "name": "Human Disease Ontology",
+        "url": "https://github.com/DiseaseOntology/HumanDiseaseOntology",
+        "version": "2022-09-29",
+        "namespacePrefix": "DOID",
+        "iriPrefix": "http://purl.obolibrary.org/obo/DOID_"
+      }
+    ],
+    "phenopacketSchemaVersion": "2.0"
+  }
+}
