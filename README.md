@@ -6,7 +6,7 @@ The template in this repository is intended for phenotype data typically complem
 
 ## Phenotype information 
 
-Phenotype information available for the EATRIS-Plus multi-omics demonstrator cohort inludes age, sex, body mass index, blood groups, and clinical haematology measurements.
+Phenotype information available for the EATRIS-Plus multi-omics demonstrator cohort includes age, sex, body mass index, blood groups, and clinical haematology measurements.
 
 ## Example data
 
