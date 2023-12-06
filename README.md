@@ -56,3 +56,5 @@ docker run -it -p 8888:8888 niehues/py39phenopackets:latest
 ```
 
 After starting the container, paste the provided URL in a browser, open and run the Jupyter notebook `notebooks/EATRIS-Plus_phenopackets.ipynb`.
+
+![EATRIS-Plus-funding-statement](https://github.com/EATRIS/phenopackets_template/assets/1405356/407ef254-4561-481d-8b74-9859d5805c40)
